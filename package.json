@@ -1,0 +1,34 @@
+{
+  "name": "opcodes",
+  "version": "1.0.0",
+  "description": "Bitcoin opcode CLI",
+  "main": "index.js",
+  "bin": {
+    "opcodes": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr0kchain/opcodes.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "opcode",
+    "commandline",
+    "index",
+    "lookup"
+  ],
+  "author": "gr0kchain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr0kchain/opcodes/issues"
+  },
+  "homepage": "https://github.com/gr0kchain/opcodes#readme",
+  "dependencies": {
+    "bitcoin-ops": "^1.4.0",
+    "columnify": "^1.5.4",
+    "commander": "^4.0.1"
+  }
+}
